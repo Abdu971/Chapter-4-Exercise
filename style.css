@@ -1,0 +1,104 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+/* Header styles */
+header {
+    background-color: #17072b;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo h1 {
+    font-family: "Tahoma", sans-serif;
+    font-weight: 700;
+    margin: 0;
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Main content styles */
+main {
+    display: flex;
+    min-height: 60vh;
+}
+
+.welcome {
+    flex: 2;
+    padding: 20px;
+}
+
+.welcome h2 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.welcome img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.line-up {
+    flex: 1;
+    background-color: #172d67;
+    color: #FFFFFF;
+    padding: 20px;
+    margin: 20px 20px 20px 0;
+}
+
+.line-up h2 {
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.line-up ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 20px;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.images img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #8c15e9;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
